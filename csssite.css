@@ -1,0 +1,136 @@
+   html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+   }
+    
+    .CarsPhotoText {
+      position:  absolute;
+      right: 105px;
+      top: 55%;
+   }
+
+   .CarsPhotoText img {
+      max-width: 100%;
+      height: auto;
+   }
+
+   .PochtaTexth2 {
+      position: absolute;
+      bottom: 10px;
+      padding-left: 25px;
+   }
+
+   .Pochtaspa {
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      font-weight: normal;
+      font-size: 125%;
+      background: rgba(0, 0, 0, 0.7);
+   }
+
+  .Ryzen {
+   display: flex;
+   position: absolute;
+   left: 105px;
+   top: 55%;
+   float: left;
+  }
+  
+  .Ryzen-cpuz {
+   max-width: 100%;
+   height: auto;
+   display: block;
+   width: 350px;
+   height: 350px;
+  }
+
+  .RyzenText {
+   font-size: 125%;  
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
+   padding-left: 1rem;
+  }
+
+  .media-text {
+   margin: 0;
+  }
+
+  .text-edit {
+   padding-left: 0.5rem;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 16px;
+  }
+
+  .market-links {
+   margin: 0;
+   display: flex;
+   position: absolute;
+   transform: translate(3%, 100px);
+  }
+
+  .market-links ul {
+   list-style-type: none;
+   margin: 0px;
+   display: flex;
+  }
+
+  .market-links a {
+   text-decoration: none;
+   font-size: 125%;
+   color: black;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-right: 55px;
+   border: 1px solid darkblue;
+   border-radius: 10px;
+   padding-left: 7px;
+   padding-right: 7px;
+   transition: 0.3s;
+  }
+
+  .market-links a:hover {
+   background-color: aqua;
+  }
+
+  .MainTextNav {  
+   display: flex;
+   font-family: Helvetica, sans-serif; 
+   justify-content: center;
+  }
+
+  /* верхнее меню на черном фоне */
+  .block1 {
+   overflow: hidden;
+   background-color: #333;
+   position: fixed; 
+   width: 100%; 
+   text-align: center;
+}
+
+.block1 a {
+   font-size: 105%;
+   display: block;
+   color: #f2f2f2;
+   padding: 16px 14px;
+   text-decoration: none;
+   margin-left: 25px;
+}
+
+.block1 a:hover {
+   background: #ddd;
+   color: black;
+}
+/* конец навигационного меню и начало маркет-линкс cнизу */
+
+.market-links {
+   margin-top: 10px;
+}
+
+.video-content {
+   position: absolute;
+   right: 105px;
+   top: 20%;
+}
+
+
+  
